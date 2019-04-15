@@ -5,8 +5,9 @@ The project itself has been inspired by various breadboard computers I came accr
 - <a href="https://eater.net/" target="_blank" title="Ben Eater's projects">Ben Eater</a>
 - {some others}
 
-But also by a desire to better understand how computers (and everything around them) work.
-The full documentation can be found at:
+# The Discrete Logic Computer
+
+Some content here to explain the project.
 
 <a href="https://pcassima.github.io/DLC/" target="_blank" title="DLC documentation">DLC docs</a>
 
