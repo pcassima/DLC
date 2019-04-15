@@ -1,0 +1,168 @@
+:root {
+    /* Global variables to be used throughout the style */
+    --teal1: #20dce1;
+    --teal2: #18a4af;
+    --teal3: #16a5a9;
+    --teal4: #1c5555;
+    --pink1: #e11c84;
+    --pink2: #a42064;
+    --pink3: #700e41;
+}
+
+body {
+    /* Global settings for the body */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: var(--teal1);
+    font-size: 48px;
+    margin-left: 24px;
+    border-bottom: 4px solid;
+}
+
+h2 {
+    color: var(--teal2);
+    font-size: 32px;
+    margin-left: 24px;
+    text-decoration: underline;
+}
+
+h3 {
+    color: var(--teal4);
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+h4 {
+    color: var(--pink2);
+    font-size: 18px;
+    margin-left: 24px;
+}
+
+h5 {
+    color: var(--pink3);
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+h6 {
+    color: var(--pink3);
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+em {
+    color: var(--teal3);
+}
+
+b {
+    color: var(--pink1);
+}
+
+mark {
+    background-color: var(--teal1);
+}
+
+strong {
+    color: var(--teal4);
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    margin-right: 24px;
+}
+
+footer {
+    clear: both;
+}
+
+footer canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+
+ul a {
+    color: var(--pink1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
+
+nav a {
+    background-color: var(--teal2);
+}
+
+nav a:hover, nav .menu_active:hover {
+    background-color: var(--pink3);
+}
+
+nav .main_menu {
+    /* TODO: do something here to make the menu bar stretch across the screen. */
+    background-color: var(--teal2);
+}
+
+nav .menu_active {
+    background-color: var(--pink2);
+}
+
+nav .menu_active, nav a {
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+    float: left;
+    width: 100px;
+    font-size: 20px;
+}
+
+nav .dropdown_content {
+    display: none;
+}
+
+nav .dropdown_content a {
+    clear: both;
+    font-size: 20px;
+    width: 100px;
+    background-color: var(--teal2);
+}
+
+nav .dropdown_content a:hover {
+    background-color: var(--pink3);
+}
+
+nav .dropdown:hover .dropdown_content {
+    display: block;
+}
+
+nav .dropdown {
+    float: left;
+    overflow: hidden;
+    background-color: var(--teal2);
+}
+
+footer .badge {
+    float: right;
+}
+
+footer p {
+    float: left;
+}
