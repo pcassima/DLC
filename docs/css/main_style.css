@@ -180,6 +180,7 @@ footer .badge {
     float: right;
     display: block;
     clear: both;
+    margin-right: 16px;
 }
 
 footer .social_bar {
