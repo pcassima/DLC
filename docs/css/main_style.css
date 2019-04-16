@@ -13,49 +13,45 @@ body {
     /* Global settings for the body */
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    margin-left: 24px;
 }
+
+/* Main styles */
 
 h1 {
     color: var(--teal1);
     font-size: 48px;
-    margin-left: 24px;
     border-bottom: 4px solid;
 }
 
 h2 {
     color: var(--teal2);
     font-size: 32px;
-    margin-left: 24px;
     text-decoration: underline;
 }
 
 h3 {
     color: var(--teal4);
     font-size: 24px;
-    margin-left: 24px;
 }
 
 h4 {
     color: var(--pink2);
     font-size: 18px;
-    margin-left: 24px;
 }
 
 h5 {
     color: var(--pink3);
     font-size: 16px;
-    margin-left: 24px;
 }
 
 h6 {
     color: var(--pink3);
     font-size: 16px;
-    margin-left: 24px;
 }
 
 p {
     font-size: 16px;
-    margin-left: 24px;
 }
 
 em {
@@ -77,18 +73,13 @@ strong {
 }
 
 img {
-    margin-right: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
-footer {
-    clear: both;
-}
-
-footer canvas {
-    padding: 0;
-    margin: auto;
+iframe {
     display: block;
-    width: 800px;
+    margin: 0 auto;
 }
 
 ul a {
@@ -99,7 +90,7 @@ ul a {
 
 nav {
     list-style-type: none;
-    margin: 0;
+    margin-left: -24px;
     padding: 0;
     overflow: hidden;
     display: block;
@@ -139,9 +130,9 @@ nav .dropdown_content {
 }
 
 nav .dropdown_content a {
-    clear: both;
     font-size: 20px;
     width: 100px;
+    clear: both;
     background-color: var(--teal2);
 }
 
@@ -159,10 +150,59 @@ nav .dropdown {
     background-color: var(--teal2);
 }
 
-footer .badge {
-    float: right;
+footer {
+    margin-left: -24px;
+    padding-top: 24px;
+    clear: both;
 }
 
-footer p {
+footer canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+
+footer .footer_column {
     float: left;
+    width: 50%;
+}
+
+footer .footer_column p {
+    margin-left: 24px;
+    float: left;
+    display: block;
+    font-size: 12px;
+    clear: both;
+}
+
+footer .badge {
+    float: right;
+    display: block;
+    clear: both;
+}
+
+footer .social_bar {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 16px;
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+
+.fa {
+    padding: 12px;
+    width: 16px;
+    margin: 2px;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: left;
+    color: var(--pink1);
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
