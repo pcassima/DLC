@@ -5,14 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DLC</title>
-    <!-- <link rel="icon" type="image/png" href="img/computer.png"> -->
+    <link rel="icon" type="image/png" href="https://pcassima.github.io/img/computer.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/main_style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/main_style.css"> -->
     <link rel="stylesheet" type="text/css" href="https://pcassima.github.io/css/main_style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!-- <script src="javascript/p5/p5.min.js"></script>
-    <script src="javascript/p5/addons/p5.dom.min.js"></script> -->
+    <script src="../js/p5/p5.min.js"></script>
+    <script src="../js/p5/addons/p5.dom.min.js"></script>
+    <!-- <script src="../js/p5/addons/p5.dom.min.js"></script> -->
 </head>
 
 <body>
@@ -64,8 +65,37 @@
 
         <div class="main_page">
             <h1>Electronics</h1>
+            <p>
+                Before we can start building our computer, we need to have a basic understanding of electronics.<br>
+                The more we know about electronics, the better we can understand how everything is working and why some things don't work (as expected).
+            </p>
+            <p>
 
+            </p>
+            <h4>Analog vs Digital</h4>
+            <p>
 
+            </p>
+
+            <h2>Waveforms</h2>
+            <p>
+                In electronics waveforms are present everywhere. Wether we are talking about analog or digital
+                electronics.
+            </p>
+            <h3>The sine wave</h3>
+            <p>
+                Some text about the sinewave
+            </p>
+            <div class="canvas_container">
+                <div id="canvas_1">
+                    <script src="../js/p5/sinewave.js"></script>
+                </div>
+                <p>Change the frequency:</p>
+                <div class="slider_container">
+                    <input type="range" id="frequency_slider_sine" min="5" max="40" value="10">
+                </div>
+            </div>
+            <h3>The square wave</h3>
 
             <div class="bottom_navbar">
                 <div class="back">

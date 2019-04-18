@@ -50,6 +50,13 @@ h6 {
 
 p {
     font-size: 16px;
+    margin-right: 8px;
+}
+
+a {
+    color: var(--pink1);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 em {
@@ -75,10 +82,73 @@ img {
     margin-right: 16px;
 }
 
-a {
-    color: var(--pink1);
-    font-weight: bold;
-    text-decoration: none;
+.video_container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    border: 2px solid var(--pink1);
+}
+
+.video_container p {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-size: 32px;
+}
+
+.video_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    z-index: 1;
+}
+
+.slider_container {
+    width: 50%;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 12px;
+    background: var(--teal1);
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 24px;
+    background-color: var(--pink1);
+    cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+    width: 12px;
+    height: 24px;
+    background-color: var(--pink1);
+    cursor: pointer;
+}
+
+.canvas_container {
+    border: 2px solid var(--pink2);
+}
+
+.canvas_container canvas {
+    display: block;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+.canvas_container p {
+    padding-left: 16px;
 }
 
 .video_container {
@@ -114,8 +184,8 @@ nav {
 }
 
 nav a {
-    background-color: var(--teal2);
     font-weight: normal;
+    background-color: var(--teal2);
 }
 
 nav a:hover, nav .menu_active:hover {
@@ -207,20 +277,58 @@ nav .dropdown {
 }
 
 .page_body .main_page .bottom_navbar {
-    width: 45%;
-    float: left;
-    margin: 1%;
+    width: auto;
+    margin: 2px 0;
     font-size: 18px;
 }
 
 .page_body .main_page .bottom_navbar .back {
     float: left;
     margin-left: 12%;
+    padding: 8px;
 }
 
 .page_body .main_page .bottom_navbar .next {
     float: right;
     margin-right: 12%;
+    padding: 8px;
+}
+
+.contact_form {
+    width: 800px;
+    border: 2px solid var(--pink2);
+}
+
+.contact_form form {
+    margin: 16px;
+}
+
+.contact_form label {
+    margin: 4px;
+    padding: 4px 8px;
+    background-color: var(--pink1);
+    color: #FFF;
+}
+
+.contact_form input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid var(--pink2);
+    margin-top: 8px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #d4eeee;
+}
+
+.contact_form input[type=submit] {
+    background-color: var(--pink1);
+    text-align: right;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 20px;
 }
 
 footer {
@@ -265,7 +373,7 @@ footer .social_bar {
     clear: both;
 }
 
-.fab {
+footer .fab {
     padding: 4px;
     text-align: center;
     text-decoration: none;
@@ -275,6 +383,6 @@ footer .social_bar {
     font-weight: lighter;
 }
 
-.fab:hover {
+footer .fab:hover {
     opacity: 0.7;
 }
