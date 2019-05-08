@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+html(lang="en")
+
+    head
+        include includes/head.pug
+
+    body
+
+        header
+            include includes/header.pug
+
+        nav
+            include includes/nav.pug
+
+        aside.left
+            include includes/aside.pug
+
+        main
+            article
+                section
+                    h1 Requirements
+                    p
+                        | Before we start we need to go over some requirements.
+                        br
+                        | <em>Don't get discouraged!</em>
+                        br
+                        | This is not meant or intended to be an expensive project. Making your own computer is a really fun and
+                        | interesting project, for everyone. I want to make and keep this project as accessible to as many people
+                        | as possible.
+
+                    h2 prerequisites
+                    p
+                        |The only real requirements that you need to have before starting
+                        | this project are:
+                        ul
+                            li A lot of enthusiasm
+                            li An eagerness to learn
+                            li A healthy dose of curiosity
+                            li Free time you can dedicate to this project.
+                            li A place you can work (and maybe leave a mess)
+                        | As long as you stay motivated and find some time you can dedicate to this project, everything will be
+                        | fine!
+                    p
+                        | A basic understanding of electronics and digital systems is useful but not necessary. I will go through
+                        | this
+                        | project step by step from the very beginning.
+                        | Even if you have absolutely no prior knowledge in electronics, logic gates or digital systems, you will
+                        | still be able to follow along.
+                        br
+                        | I will try my best to explain everything and provide all the required resources.
+
+                    h2 Materials
+                    p
+                        | As far as materials that are needed, this is also very limited.<br>
+                        | A basic multimeter, breadboards and wire are some essentials. <br>
+                        | The rest of required materials, such as IC's, will be added to each relevant section.
+                    p
+                        | In fact this entire project can be made in a logic simulator, such as
+                        a(href="https://sourceforge.net/projects/circuit/")  logisim
+                        | .
+                        br
+                        | This is an excellent tool for simulating digital schematics. However development stopped in 2013. <br>
+                        | A swiss academy developed their own digital simulator, based on logisim. They have released this on
+                        | github
+                        a(href="https://github.com/reds-heig/logisim-evolution")  logisim-evolution
+                        | .
+                    p
+                        | Now that we know all the things that we need, we can get started with the basics. Next is an overview of
+                        | all the basics we will go over.
+
+
+            div
+                .bottom_navbar
+                    .back
+                        a(href="outline.html") &#171; back
+                .bottom_navbar
+                    .next
+                        a(href="#") next &#187;
+
+        footer
+            include includes/footer.pug

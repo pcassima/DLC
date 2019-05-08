@@ -1,185 +1,122 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Pieter-Jan Cassiman"/>
+    <meta name="description" content="My corner of the internet"/>
     <title>DLC</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="icon" type="image/png" href="img/computer.png"> -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="css/main_style.css"> -->
-    <link rel="stylesheet" type="text/css" href="https://pcassima.github.io/css/main_style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!-- <script src="javascript/p5/p5.min.js"></script>
-    <script src="javascript/p5/addons/p5.dom.min.js"></script> -->
-</head>
-
-<body>
-
-    <header>
-        <!-- Stuff to put in the header; like a banner. -->
-    </header>
-
+    <link rel="icon" type="image/png" href="https://pcassima.github.io/assets/img/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="https://pcassima.github.io/assets/css/main.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <script src="./js/nav.js"></script>
+  </head>
+  <body>
+    <header></header>
     <nav>
-        <a href="https://pcassima.github.io/">Home</a>
-        <div class="dropdown">
-            <a class="menu_active" href="https://pcassima.github.io/projects.html">Projects</a>
-            <div class="dropdown_content">
-                <a href="https://pcassima.github.io/html/thesis.html">thesis</a>
-                <a href="https://pcassima.github.io/html/linal.html">linal</a>
-                <a href="https://pcassima.github.io/DLC/">DLC</a>
-            </div>
-        </div>
-        <a href="https://pcassima.github.io/about.html">About</a>
-        <a href="https://pcassima.github.io/contact.html">Contact</a>
+      <div class="hamburger" onclick="myFunction()">
+        <div class="hamburger-bar"></div>
+        <div class="hamburger-bar"></div>
+        <div class="hamburger-bar"></div>
+      </div>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="https://pcassima.github.io/">Home</a></li>
+        <li><a class="nav_active" href="https://pcassima.github.io/projects.html">Projects</a></li>
+        <li><a href="#">Experiments</a></li>
+        <li><a href="https://pcassima.github.io/about.html">About</a></li>
+        <li><a href="https://pcassima.github.io/contact.html">Contact</a></li>
+      </ul>
     </nav>
-
-    <div class="page_body">
-
-        <div class="sidebar">
-            <ol>
-                <li>
-                    <a href="index.html">Introduction</a>
-                </li>
-                <li>
-                    <a href="requirements.html">Requirements</a>
-                </li>
-                <li>
-                    <a href="basics/basics.html">Basics</a>
-                    <ol>
-                        <li>
-                            <a href="basics/electronics.html">Electronics</a>
-                        </li>
-                        <li>
-                            <a href="basics/transistors.html">Transistors</a>
-                        </li>
-                        <li>
-                            <a href="basics/logic_gates.html">Logic gates</a>
-                        </li>
-                    </ol>
-                </li>
-            </ol>
+    <aside class="left">
+      <ol>
+        <li><a href="index.html">Introduction</a></li>
+        <li><a href="outline.html">Outline</a></li>
+        <li><a href="requirements.html">Requirements</a></li>
+        <li><a href="basics/basics.html">Basics</a>
+          <ol>
+            <li><a href="basics/electronics.html">Electronics</a></li>
+            <li><a href="basics/transistors.html">Transistors</a></li>
+            <li><a href="basics/logic_gates.html">Logic gates</a></li>
+          </ol>
+        </li>
+      </ol>
+    </aside>
+    <main>
+      <article>
+        <section>
+          <h1>Requirements</h1>
+          <p>Before we start we need to go over some requirements.<br/><em>Don't get discouraged!</em><br/>This is not meant or intended to be an expensive project. Making your own computer is a really fun and
+            interesting project, for everyone. I want to make and keep this project as accessible to as many people
+            as possible.
+          </p>
+          <h2>prerequisites</h2>
+          <p>
+            The only real requirements that you need to have before starting
+            this project are:
+            <ul>
+              <li>A lot of enthusiasm</li>
+              <li>An eagerness to learn</li>
+              <li>A healthy dose of curiosity</li>
+              <li>Free time you can dedicate to this project.</li>
+              <li>A place you can work (and maybe leave a mess)</li>
+            </ul>As long as you stay motivated and find some time you can dedicate to this project, everything will be
+            fine!
+          </p>
+          <p>
+            A basic understanding of electronics and digital systems is useful but not necessary. I will go through
+            this
+            project step by step from the very beginning.
+            Even if you have absolutely no prior knowledge in electronics, logic gates or digital systems, you will
+            still be able to follow along.<br/>I will try my best to explain everything and provide all the required resources.
+          </p>
+          <h2>Materials</h2>
+          <p>
+            As far as materials that are needed, this is also very limited.<br>
+            A basic multimeter, breadboards and wire are some essentials. <br>
+            The rest of required materials, such as IC's, will be added to each relevant section.
+          </p>
+          <p>In fact this entire project can be made in a logic simulator, such as<a href="https://sourceforge.net/projects/circuit/"> logisim</a>.<br/>This is an excellent tool for simulating digital schematics. However development stopped in 2013. <br>
+            A swiss academy developed their own digital simulator, based on logisim. They have released this on
+            github<a href="https://github.com/reds-heig/logisim-evolution"> logisim-evolution</a>.
+          </p>
+          <p>
+            Now that we know all the things that we need, we can get started with the basics. Next is an overview of
+            all the basics we will go over.
+          </p>
+        </section>
+      </article>
+      <div>
+        <div class="bottom_navbar">
+          <div class="back"><a href="outline.html">&#171; back</a></div>
         </div>
-
-        <div class="main_page">
-            <h1>Requirements</h1>
-            <p>
-                Before we start we need to go over some requirements.<br>
-                <em>Don't get discouraged!</em><br>
-                This is not meant or intended to be an expensive project. Making your own computer is a really fun and
-                interesting project, for everyone. I want to make and keep this project as accessible to as many people
-                as possible.
-            </p>
-            <h2>prerequisites</h2>
-            <p>
-                The only real requirements that you need to have before starting
-                this project are:
-                <ul>
-                    <li>A lot of enthusiasm</li>
-                    <li>An eagerness to learn</li>
-                    <li>A healthy dose of curiosity</li>
-                    <li>Free time you can dedicate to this project.</li>
-                    <li>A place you can work (and maybe leave a mess)</li>
-                </ul>
-                As long as you stay motivated and find some time you can dedicate to this project, everything will be
-                fine!
-            </p>
-            <p>
-                A basic understanding of electronics and digital systems is useful but not necessary. I will go through
-                this
-                project step by step from the very beginning.
-                Even if you have absolutely no prior knowledge in electronics, logic gates or digital systems, you will
-                still be able to follow along.<br>
-                I will try my best to explain everything and provide all the required resources.
-            </p>
-
-            <h2>Materials</h2>
-            <p>
-                As far as materials that are needed, this is also very limited.<br>
-                A basic multimeter, breadboards and wire are some essentials. <br>
-                The rest of required materials, such as IC's, will be added to each relevant section.
-            </p>
-            <p>
-                In fact this entire project can be made in a logic simulator, such as
-                <a href="https://sourceforge.net/projects/circuit/">logisim</a>.<br>
-                This is an excellent tool for simulating digital schematics. However development stopped in 2013. <br>
-                A swiss academy developed their own digital simulator, based on logisim. They have released this on
-                github
-                <a href="https://github.com/reds-heig/logisim-evolution">logisim-evolution</a>.
-            </p>
-            <p>
-                Now that we know all the things that we need, we can get started with the basics. Next is an overview of
-                all the basics we will go over.
-            </p>
-            <div>
-                <div class="bottom_navbar">
-                    <div class="back">
-                        <a href="index.html">&#171 back</a>
-                    </div>
-                </div>
-                <div class="bottom_navbar">
-                    <div class="next">
-                        <a href="basics/basics.html">next &#187</a>
-                    </div>
-                </div>
-            </div>
-
+        <div class="bottom_navbar">
+          <div class="next"><a href="#">next &#187;</a></div>
         </div>
-    </div>
-
+      </div>
+    </main>
     <footer>
-        <hr>
-
-        <div class="footer_column">
-            <p>
-                &copy 2019, Pieter-Jan Cassiman
-            </p>
-
-            <ul class="social_bar">
-                <li>
-                    <a href="https://www.youtube.com/channel/UCag4kR1A4hj4j2MgZwDUQLg" class="fab fa-youtube fa-2x"
-                        target="_blank"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/pieterjancassiman/" class="fab fa-instagram fa-2x"
-                        target="_blank"></a>
-                </li>
-                <li>
-                    <a href="https://github.com/pcassima" class="fab fa-github fa-2x" target="_blank"></a>
-                </li>
-                <li>
-                    <a href="https://transistories.blogspot.com/" class="fab fa-blogger fa-2x" target="_blank"></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/PieterJanCassim" class="fab fa-twitter fa-2x" target="_blank"></a>
-                </li>
-                <li>
-                    <a href="https://www.reddit.com/user/pcassima" class="fab fa-reddit fa-2x" target="_blank"></a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="footer_column">
-            <form class="badge" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="ZD9SEDGQSKR3U" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0"
-                    name="submit" title="PayPal - The safer, easier way to pay online!"
-                    alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_BE/i/scr/pixel.gif" width="1" height="1" />
-            </form>
-            <a class="badge"
-                href="https://www.tindie.com/stores/fenixcomputers/?ref=offsite_badges&utm_source=sellers_fenixcomputers&utm_medium=badges&utm_campaign=badge_medium"
-                target="_blank">
-
-                <img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie"
-                    width="150" height="78">
-            </a>
-        </div>
-
+      <hr/>
+      <div class="footer_column">
+        <p>&copy 2019, Pieter-Jan Cassiman</p>
+        <ul class="social_bar">
+          <li><a class="fab fa-youtube fa-2x" href="https://www.youtube.com/channel/UCag4kR1A4hj4j2MgZwDUQLg" target="_blank"></a></li>
+          <li><a class="fab fa-instagram fa-2x" href="https://www.instagram.com/pieterjancassiman/" target="_blank"></a></li>
+          <li><a class="fab fa-github fa-2x" href="https://github.com/pcassima" target="_blank"></a></li>
+          <li><a class="fab fa-blogger fa-2x" href="https://transistories.blogspot.com/" target="_blank"></a></li>
+          <li><a class="fab fa-twitter fa-2x" href="https://twitter.com/PieterJanCassim" target="_blank"></a></li>
+          <!--li-->
+          <!--    a(href="https://www.reddit.com/user/pcassima" class="fab fa-reddit fa-2x" target="_blank")-->
+        </ul>
+      </div>
+      <div class="footer_column">
+        <form class="badge" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_s-xclick"/>
+          <input type="hidden" name="hosted_button_id" value="ZD9SEDGQSKR3U"/>
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button"/><img alt="" border="0" src="https://www.paypal.com/en_BE/i/scr/pixel.gif" width="1" height="1"/>
+        </form><a class="badge" href="https://www.tindie.com/stores/fenixcomputers/?ref=offsite_badges&amp;utm_source=sellers_fenixcomputers&amp;utm_medium=badges&amp;utm_campaign=badge_medium" target="_blank"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"/></a>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>

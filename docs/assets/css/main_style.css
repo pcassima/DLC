@@ -151,30 +151,6 @@ input[type=range]::-moz-range-thumb {
     padding-left: 16px;
 }
 
-.video_container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-    border: 2px solid var(--pink1);
-}
-
-.video_container p {
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    font-size: 32px;
-}
-
-.video_container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    z-index: 1;
-}
-
 nav {
     list-style-type: none;
     margin-left: -24px;
@@ -238,9 +214,10 @@ nav .dropdown {
     background-color: var(--teal2);
 }
 
-.page_body .sidebar {
+.page_body aside {
     float: left;
     width: 14%;
+    height: 100%;
     min-width: 128px;
     margin-left: -24px;
     margin-right: 24px;
@@ -249,22 +226,22 @@ nav .dropdown {
     overflow: hidden;
 }
 
-.page_body .sidebar ol {
+.page_body aside ol {
     margin-left: -16px;
     list-style-type: decimal;
 }
 
-.page_body .sidebar ol li {
+.page_body aside ol li {
     padding: 1px;
 }
 
-.page_body .sidebar ol ol {
+.page_body aside ol ol {
     margin-left: -1.5em;
     font-size: 0.85em;
     list-style-type: lower-latin;
 }
 
-.page_body .sidebar p {
+.page_body aside p {
     text-align: left;
     margin-left: 8px;
 }
@@ -272,6 +249,7 @@ nav .dropdown {
 .page_body .main_page {
     float: left;
     width: 82%;
+    height: 100%;
     margin: 0 auto;
     max-width: 1200px;
 }

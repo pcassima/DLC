@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+html(lang="en")
+
+    head
+        include includes/head.pug
+
+    body
+
+        header
+            include includes/header.pug
+
+        nav
+            include includes/nav.pug
+
+        aside.left
+            include includes/aside.pug
+
+        main
+            article
+                section
+                    h1 The Discrete Logic Computer
+
+                    .video_container
+                        p oops something went wrong with the video ...
+
+                    h2 Introduction
+
+                    p
+                    |   After watching many projects by others (on the internet) and an ever growing interest and desire to
+                    |   know how computers work. I have finally decided to make my very own "breadboard" style computer.
+
+                    p
+                    |   Some of my inspiration:
+                    ul
+                        li
+                            a(href="#" target="_blank") Ben Eater
+                        li
+                            a(href="#" target="_blank") Some others...
+
+                    p
+                    |   This website will detail my adventures in trying to make this computer. I hope it will inspire you to
+                    |   make your own computer.
+            div
+                .bottom_navbar
+                    //.back
+                    //    a(href="#") &#171; back
+                .bottom_navbar
+                    .next
+                        a(href="outline.html") next &#187;
+
+        footer
+            include includes/footer.pug
