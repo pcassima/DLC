@@ -8,6 +8,7 @@ A completely functional computer, with all peripherals built from nothing but 74
 - [Documentation](#documentation)
   * [Formats](#formats)
   * [Versions](#versions)
+  * [Schematics](#schematics)
 - [Getting started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
@@ -30,7 +31,7 @@ The documentation is available in different formats, this way you can choose whi
 
 #### PDF
 
-5PDF's are the original format for the documentation, and are available for download. This format can be printed and viewed on any platform, both online and offline (once downloaded).
+PDF's are the original format for the documentation, and are available for download. This format can be printed and viewed on any platform, both online and offline (once downloaded).
 
 #### HTML
 
@@ -42,7 +43,7 @@ I hope to one day publish (part of) the documentation as an actual physical book
 
 #### YouTube
 
-
+The whole project will be documented as a YouTube series. This series will be made during the creation of the computer. If you want to be on the bleeding edge of the project's progress, this is the format to follow.
 
 ### Versions
 
@@ -51,6 +52,12 @@ I hope to one day publish (part of) the documentation as an actual physical book
 #### General documentation ('syllabus')
 
 #### Programmer's reference
+
+### Schematics
+
+All schematics are available as large format PDF's for printing on A3. All schematics have a unique label (or identification), this way they can be referenced in the documentation.
+
+It is not possible to place the high resolution schematics on the documentation. By labelling and referencing the schematics, the full schematics can be viewed along with the documentation.
 
 ## Getting started
 
