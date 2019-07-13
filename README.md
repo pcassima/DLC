@@ -2,7 +2,19 @@
 
 A completely functional computer, with all peripherals built from nothing but 74-series logic chips. Hence the name: **D**iscrete **L**ogic **C**omputer.
 
-[TOC]
+## Table of contents
+
+- [About the project](#about-the-project)
+- [Documentation](#documentation)
+  * [Formats](#formats)
+  * [Versions](#versions)
+  * [Schematics](#schematics)
+- [Getting started](#getting-started)
+  - [Kits](#kits)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 ## About the project
 
@@ -71,3 +83,4 @@ I will make kits in varying levels of "completeness"; they will vary from having
 
 
 ## Acknowledgements
+
