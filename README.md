@@ -2,18 +2,7 @@
 
 A completely functional computer, with all peripherals built from nothing but 74-series logic chips. Hence the name: **D**iscrete **L**ogic **C**omputer.
 
-## Table of contents
-
-- [About the project](#about-the-project)
-- [Documentation](#documentation)
-  * [Formats](#formats)
-  * [Versions](#versions)
-  * [Schematics](#schematics)
-- [Getting started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+[TOC]
 
 ## About the project
 
@@ -49,6 +38,8 @@ The whole project will be documented as a YouTube series. This series will be ma
 
 #### Build guide
 
+This is the guide to follow when building the computer from scratch. It comes with a *Bill-of-Materials* and step-by-step guides to building and assembling the different parts of the computer.
+
 #### General documentation ('syllabus')
 
 #### Programmer's reference
@@ -61,7 +52,11 @@ It is not possible to place the high resolution schematics on the documentation.
 
 ## Getting started
 
+### Kits
 
+Once the whole computer has been completed, I will try and make hardware kits available. These kits will contain everything that is needed to make the whole computer (or parts of it).
+
+I will make kits in varying levels of "completeness"; they will vary from having absolutely everything to increasing levels of parts you have source yourself.
 
 ## Contributing
 
@@ -76,10 +71,3 @@ It is not possible to place the high resolution schematics on the documentation.
 
 
 ## Acknowledgements
-
-
-
-
-
-
-
